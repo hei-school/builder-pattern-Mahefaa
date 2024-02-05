@@ -23,7 +23,7 @@ public class SuvEngine implements Engine {
     if (this == obj) {
       return true;
     }
-    if (!(obj instanceof SportsEngine obj1)) {
+    if (!(obj instanceof SuvEngine obj1)) {
       return false;
     }
     return this.getType().equals(obj1.getType());
